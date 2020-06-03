@@ -1,0 +1,7 @@
+<block wx:if="{{$taroCompReady}}">
+    <view class="index"><text>Hello world!</text>
+        <button bindgetuserinfo="handleShouquan" open-type="getUserInfo">微信登录</button>
+        <button bindtap="handlePay">微信支付</button>
+        <button open-type="share">微信分享</button>
+    </view>
+</block>
